@@ -1,0 +1,121 @@
+/*header*/
+.header{display: flex;
+flex-direction: row;
+flex-wrap: nowrap;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.logo{
+width: 122px;
+margin:50px 706px 67px 140px;}
+.nav_ul{display: flex;
+	flex-wrap: nowrap;
+	align-items: center;
+
+}
+.nav_li{color: #707070;
+font-size: 20px;
+margin-right:40px;
+height: 27px;
+}
+.search{margin: 77px 141px 109px 78px;}
+
+/*form*/
+.fname{display: flex;
+flex-direction: column;
+margin-left: 230px;
+font-size: 23px;}
+.fname label{margin-left: 20px;
+}
+.fname input{height: 70px;
+width: 730px;
+}
+.mail{display: flex;
+flex-direction: column;
+margin-left: 230px;
+font-size: 23px;}
+.mail label{margin-left: 20px;
+}
+.mail input{height: 70px;
+width: 730px;
+}
+.sub{display: flex;
+flex-direction: column;
+margin-left: 230px;
+font-size: 23px;}
+.sub label{margin-left: 20px;
+}
+.sub input{height: 70px;
+width: 730px;
+}
+
+.msg{resize: none;
+	display: flex;
+flex-direction: column;
+margin-left: 230px;
+font-size: 23px;
+}
+.msg label{margin-left: 20px;
+}
+.msg input{
+	height: 70px;
+width: 730px;
+}
+.btn{margin-left: 250px;}
+.btn button{background-color: #2E2E2E;
+height: 53px;
+width: 151px;
+border: none;
+color: white;
+font-size: 20px;
+margin-top: 40px;}
+
+/*footer*/
+.footer{width: 100%
+background-color:black;}
+.wraper{display: flex;
+justify-content: center;
+align-items: center;
+background-color: black;
+height: 207px;
+margin-top: 123px;
+width: 1700px;}
+.footer1{width: 122px;
+margin:56px 374px 56px 141px;
+}
+.footer2 {
+	display: flex;
+	flex-direction: column;	
+	margin-top: 40px;
+	margin-right: 363px;
+	color: white;
+}
+.kontaqti{
+	color: white;
+	margin-top: 8px;
+	font-size: 15px;
+}
+.footer3{
+	display: flex;
+	flex-direction: column;
+	margin-top: 40px;
+	margin-right: 295px;
+}
+.footer3 h3 {
+	color: #fff;
+	font-size: 20px;
+}
+.footer3 a{
+	color: #fff;
+	font-size: 15px;
+	margin-top: 8px;
+}
+.footer4{
+	display: flex;
+	margin-top: 40px;
+}
+.fb{
+	margin-right: 35px;
+}
+.insta{margin-right: 140px;}
